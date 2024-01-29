@@ -8,3 +8,9 @@ if (x % 2 == 0) {
 } else {
     alert("ITU BUKAN ANGKA!!");
 }
+
+if(confirm("Apakah Anda Manusia? ")) {
+    location = "https://youtube.com"
+} else {
+    alert("anda di penjara");
+}
